@@ -1,0 +1,298 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmy Coffee House</title>
+
+    <!-- LINKS -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Mini Project/assets/favicon-icon.ico" type="image/x-icon">
+    </head>
+    <body>
+    
+        <header class="d-flex flex-wrap justify-content-center sticky-top px-5 bg-light">
+          <a href="../Mini Project/index.html" class="d-flex align-items-center mb-3 mb-md-3 mt-3 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4"><img class="logo" src="../Mini Project/assets/Transparent-Background-Logo.png" alt=""></span>
+          </a>
+    
+          <ul class="nav nav-pills mt-3">
+            <li class="nav-item"><a href="#hero" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+            <li class="nav-item"><a href="#myCarousel" class="nav-link">BEST SELLER</a></li>
+            <li class="nav-item"><a href="../Mini Project/menu.html" class="nav-link active bg-danger" aria-current>OUR MENU</a></li>
+          </ul>
+        </header>
+    
+    <!-- NAVBAR -->
+
+
+    <!-- HERO -->
+
+    <div class="hero container col-xxl-8 py-5 px-4" id="hero">
+        <div class="row flex-lg-row-reverse align-items-center">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="../Mini Project/assets/hero-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3"> Welcome to CHARMY COFFEE HOUSE</h1>
+            <p class="lead">Where our Coffee are Better with a Better Quality Beans.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- HERO -->
+
+
+    <!-- ABOUT -->
+
+    <section id="about-section" class="py-5">
+        <div class="container wrapabout justify-content-center align-items-center">
+            <div class="red"></div>
+            <div class="row">
+                <div class="col-lg-6 mt-lg-0">
+                    <figure class="potoaboutwrap mt-5">
+                        <img src="../Mini Project/assets/Coffee_House_1.jpg" width="100%" height="10%">
+                    </figure>
+                </div>
+                <div class="col-lg-6 align-items-center justify-content-center d-flex mb-5 mb-lg-0">
+                    <div class="blockabout">
+                        <div class="blockabout-inner text-center text-sm-start">
+                            <div class="title-big pb-1 mb-3">
+                                <h1>ABOUT US</h1>
+                            </div>
+                            <p class="description-p text-muted pe-0 pe-lg-0">
+                                <span class="logo-name">CHARMY COFFEE HOUSE</span> is a establishment that primarily serves coffee of various types, notably espresso, latte, and cappuccino.
+                            </p>
+                            <p class="description-p text-muted pe-0 pe-lg-0"> We also serve cold drinks, such as iced coffee and iced tea, as well as other non-caffeinated beverages.</p>
+                            <div class="sosmed-horizontal py-3">
+                                <a href="https://www.instagram.com/princeparco/"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.facebook.com/PrinceCharmCanturiasParco"><i class="bi bi-facebook"></i></a> 
+                                <a href="https://twitter.com/iamprinceparco"><i class="bi bi-twitter"></i></a>
+                            </div>
+                            <a href="../Mini Project/about.html" class="btn rey-btn mt-3">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ABOUT -->
+
+
+    <!-- CAROUSEL -->
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Mini Project/Menu-Assets/Viennese-Coffee.jpg" width="100%">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1> Our Best Seller Coffee </h1>
+                <p>EINSPÄNNER Coffees</p>
+                <p><button type="button" class="btn btn-lg btn-warning text-light" data-bs-toggle="modal"
+                  data-bs-target="#menu7">Try It Now</button> </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../Mini Project/Menu-Assets/French-Croissants.jpg" width="100%">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Our Best Seller Bread</h1>
+                <p>FRENCH CROISSANTS</p>
+                <p><button type="button" class="btn btn-lg btn-warning text-light" data-bs-toggle="modal"
+                  data-bs-target="#menu9">Try It Now</button> </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../Mini Project/assets/Carousel-image.png" width="100%">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     <!-- CAROUSEL -->
+
+
+     <!-- CONTACT -->
+
+     <div class="contact container-fluid px-5 my-5" id="contact">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+                  <div class="col-sm-6 p-4">
+                    <div class="text-center">
+                      <div class="h1 border-bottom py-3">Contact Us</div>
+                      <p class="mb-1 text-muted"> Reach us at Social Media </p>
+                        <div class="sosmed-horizontal py-2">
+                            <a href="https://www.facebook.com/PrinceCharmCanturiasParco"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/princeparco/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://twitter.com/iamprinceparco"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+      
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+      
+                      <!-- Name Input -->
+                      <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                        <label for="name">Name</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                      </div>
+      
+                      <!-- Email Input -->
+                      <div class="form-floating mb-3">
+                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                        <label for="emailAddress">Email Address</label>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                      </div>
+      
+                      <!-- Message Input -->
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                        <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                      </div>
+
+                      <!-- Submit button -->
+                       <div class="d-grid">
+                        <button class="submit btn btn-warning btn-lg " id="submitButton" type="submit">Submit</button>
+                      </div>
+                    </form>
+                      <!-- End of contact form -->
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <!-- CONTACT -->
+
+
+
+ <!-- FOOTER -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-secondary">
+      <div class="col-md-4 mb-3 px-4">
+        <p class="mb-md-0 text-muted mt-3">&copy; 2023 Charmy Coffee House. All rights reserved.</p>
+      </div>
+   
+      <div class="col mt-3 text-muted px-5">
+        <nav> <a href="../Mini Project/index.html" class="footer-nav">HOME</a></nav>
+        <nav> <a href="../Mini Project/about.html" class="footer-nav">ABOUT US</a></nav>
+        <nav> <a href="../Mini Project/menu.html" class="footer-nav">OUR MENU</a></nav>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex px-5">
+        <li class="ms-3"><a class="text-muted" href="https://twitter.com/iamprinceparco" target="_blank"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/PrinceCharmCanturiasParco" target="_blank"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/princeparco/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </footer>
+
+ <!-- FOOTER -->
+
+ 
+ <!-- MODALS -->
+    <div
+     class="modal fade"
+     id="menu7"
+     tabindex="-1"
+     aria-labelledby="Coffee Label"
+     aria-hidden="true"
+     >
+     <div class="modal-dialog modal-dialog-centered modal-md">
+     <div class="modal-content">
+     <div class="modal-header">
+      <h6 class="modal-title text-danger menu-header">EINSPÄNNER <div class="text-primary-emphasis">Viennese Coffee With Whipped Cream</div></h6>
+    </div>
+    <div class="modal-body">
+      <img src="../Mini Project/Menu-Assets/Viennese-Coffee.jpg" class="menu-image" alt="" />
+      <div class="text-primary pt-2">160 Calories</div>
+      <p class="mt-4">
+        Our Einspänner is served in a tall glass, with icing
+        sugar and cocoa powder on top, it is not stirred, and the 
+        coffee should be slowly sipped through the whipped cream.
+      </p>
+       <div class="text-muted">For 240 Pesos Only</div>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+        Close
+      </button>
+      <button type="button" class="btn btn-warning btn-outline-secondary btn-sm"><a href="../Mini Project/orderform.html">BUY</a></button>
+     </div>
+     </div>
+     </div>
+     </div>
+
+
+     <div
+     class="modal fade"
+     id="menu9"
+     tabindex="-1"
+     aria-labelledby="Cake Label"
+     aria-hidden="true"
+     >
+     <div class="modal-dialog modal-dialog-centered modal-md">
+     <div class="modal-content">
+     <div class="modal-header">
+      <h6 class="modal-title text-danger menu-header">TEXAS TORNADO CAKE</h6>
+    </div>
+    <div class="modal-body">
+      <img src="../Mini Project/Menu-Assets/Bagels.jpg" class="menu-image" alt="" />
+      <p class="mt-4">
+        This Croissants are made with a yeast 
+        leavened dough that has been laminated 
+        with butter, in multiple layers.
+      </p>
+       <div class="text-muted">For 155 Pesos Only</div>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+        Close
+      </button>
+     <button type="button" class="btn btn-warning btn-outline-secondary btn-sm"><a href="../Mini Project/orderform.html">BUY</a></button>
+     </div>
+     </div>
+     </div>
+     </div>
+
+ <!-- MODALS -->
+
+  </body>
+
+    <!-- LINKS -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+ </html>
